@@ -1,0 +1,86 @@
+/* Info generiche */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image:url(background.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Info class lim  */
+.lim{
+    text-align: center;
+}
+.lim .logo{
+    width: 180px;
+    margin-top: 5px;
+}
+.lim h1{
+    color:rgb(28, 213, 28);
+    font-size: 22px;
+    font-weight:800;
+}
+
+/* Info contenitore  */
+.container{
+    max-width: 70%;
+    max-height: 90%;
+    margin: 20px auto 30px ;
+    background-color: rgb(8, 8, 8,0.6);
+    padding: 72px;
+    border-radius: 12px;
+}
+
+/* Info button  */
+.button-contenitore{
+    background-color: rgb(28, 213, 28);
+    text-align: center;
+    margin-top: 2px;
+    padding: 5px;
+}
+.button-type{
+    font-size: 10px;
+    padding-left:5px;
+    padding-right: 5px;
+}
+
+/* Dettagli monopattini */
+.monopattino{
+    color:white;
+    margin-top: 17px;
+    font-size: 12px;
+}
+.monopattino h2{
+    display: inline-block;
+    font-size: 17px;
+}
+.info-monopattino{
+    opacity: 0.8;
+}
+.colore-arancione{
+    width: 35%;
+    height: 22px;
+    background-color: rgb(248, 189, 78);
+
+    border-radius: 3px;
+}
+.colore-verde{
+    width: 60%;
+    height: 22px;
+    background-color: limegreen;
+
+    border-radius: 3px;
+}
+.colore-rosso{
+    width:15%;
+    height: 22px;
+    background-color: rgb(249, 68, 68,0.7);
+
+    border-radius: 3px;
+}
+
